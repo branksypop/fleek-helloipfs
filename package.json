@@ -4,11 +4,12 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-       "dev": "vite"
+    "dev": "vite"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@fleekxyz/cli": "^0.7.1",
     "vite": "^4.5.0"
   }
 }
