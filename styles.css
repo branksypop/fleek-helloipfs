@@ -1,0 +1,41 @@
+/* Default CSS Rules */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:
+        linear-gradient(90deg, #ff9a9e 25%, #fad0c4 50%, #ff9a9e 75%),
+        linear-gradient(90deg, #f6d365 25%, #fda085 50%, #f6d365 75%);
+    background-size: 200% 100%, 200% 100%;
+    animation: gradient-animation1 32s linear infinite, gradient-animation2 12s linear infinite;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.flash-image {
+    width: 100px;
+}
+
+/* Beautiful Animated CSS Background */
+@keyframes gradient-animation1 {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+@keyframes gradient-animation2 {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
